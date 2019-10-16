@@ -653,14 +653,21 @@ html {
 }
 
 .card-icon-wrap {
+    width: 47px
+}
+
+.card-icon-wrap.foo {
     width: 48px
 }
 
 .card-title {
     font-size: 24px;
     font-weight: 700;
-    padding-left: 17px;
+    padding-left: 18px;
     line-height: 27px
+}
+.card-title.bar {
+    padding-left: 17px;
 }
 
 .card-specs {
@@ -1052,7 +1059,8 @@ html {
         grid-column: span 6
     }
 
-    .card-icon-wrap {
+    .card-icon-wrap,
+    .card-icon-wrap.foo {
         width: 35px
     }
 
@@ -1060,7 +1068,8 @@ html {
         width: 35px
     }
 
-    .card-title {
+    .card-title,
+    .card-title.bar {
         font-size: 14px;
         padding-left: 16px;
         line-height: 16px

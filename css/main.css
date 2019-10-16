@@ -489,7 +489,7 @@ footer {
     from {
         transform: scale(0.2);
     }
-to-transform: scale(1);
+    to { transform: scale(1); }
 }
 * {
     box-sizing: border-box;
@@ -736,7 +736,7 @@ html {
     width: 100%;
     margin-top: 40px;
     display: block;
-    background: url(../img/b.jpg);
+    background: url(../img/cam.webp);
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;

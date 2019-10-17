@@ -238,38 +238,6 @@ body, html {
     display: block
 }
 
-.header-logo {
-    width: 108px;
-    float: left;
-    margin: 32px 21px 0 0
-}
-
-.header-menu {
-    float: left;
-    margin: 38px 0 0 0;
-    padding: 0
-}
-
-.header-menu__link {
-    float: left;
-    margin: 0 28px 0 0;
-    font-size: 16px;
-    font-weight: 700;
-    color: #333;
-    opacity: .6;
-    list-style: none;
-    cursor: pointer;
-    text-decoration: none
-}
-
-.header-menu__switcher {
-    display: none
-}
-
-.header-menu__link_active {
-    opacity: 1
-}
-
 footer {
     height: 50px;
     flex-grow: 0;

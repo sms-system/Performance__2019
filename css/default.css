@@ -4281,7 +4281,11 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border-radius: 0.25rem;
+  border-radius: 23px;
+}
+
+.card.card_size_s {
+  border-radius: 22px;
 }
 
 .card > hr {

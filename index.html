@@ -1,344 +1,348 @@
 <html><head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <meta name="robots" content="noindex">
-        <link rel="stylesheet" href="./css/default.css">
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="shortcut icon" href="favicon.png">
-        <script src="https://yastatic.net/jquery/3.3.1/jquery.js"></script>
-        <script src="./js/main.js"></script>
-    
-        <template class="template">
-            <div class="card">
-                <div class="card-heading">
-                    <div class="card-icon-wrap">
-                        <img class="card-icon">
-                    </div>
-                    <h3 class="card-title"></h3>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.js"></script>
+    <script src="./js/main.js"></script>
+
+    <template class="template">
+        <div class="card">
+            <div class="card-heading">
+                <div class="card-icon-wrap">
+                    <img class="card-icon">
                 </div>
-                <div class="card-specs">
-                    <p class="card-source"></p>
-                    <p class="card-time"></p>
-                </div>
+                <h3 class="card-title"></h3>
             </div>
-    
-        </template><template class="template-description">
-        <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
-        <div class="critical-cam" touch-action="none">
-    
-        </div>
-    
-        </p>
-    </template><template class="template-cam"></template><template class="template-graph">
-        <div class="card-data card-data_graph">
-            <img class="card-data_graph-img" src="img/Richdata@3x.png">
-        </div>
-    </template><template class="template-climat">
-        <div class="card-data card-data_climat">
-            <div class="climat-block">
-                Температура: <em class="climat-block_data climat-block_data__temp">24 C</em>
-            </div>
-            <div class="climat-block hum-block">
-                Влажность: <em class="climat-block_data climat-block_data__hum">80%</em>
+            <div class="card-specs">
+                <p class="card-source"></p>
+                <p class="card-time"></p>
             </div>
         </div>
-    </template><template class="template-music">
-        <div class="card-data card-data_music">
-    
-            <div class="song-area">
-                <div class="cover-wrap">
-                    <img class="cover" src="https://avatars.yandex.net/get-music-content/193823/1820a43e.a.5517056-1/m1000x1000">
-                </div>
-    
-                <div class="song-data">
-                    <h4 class="song-title">Florence &amp; The Machine - Big God</h4>
-                    <div class="song-timeline-wrap">
-                        <input type="range" class="song-range" name="song-range" min="0" max="100" value="" step="1">
-                        <div class="song-length">4:31</div>
-                    </div>
-                </div>
-            </div>
-            <div class="player-controls">
-                <button class="player-control player-control_prev">
-                    <img src="img/Prev.svg">
-                </button>
-                <button class="player-control player-control_next">
-                    <img src="img/Prev.svg">
-                </button>
-    
-                <input type="range" class="volume-range" name="volume-range" min="0" max="100" value="50" step="1">
-                <div class="song-volume">80%</div>
-            </div>
-    
-    
-    
+
+    </template><template class="template-description">
+    <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
+    <div class="critical-cam" touch-action="none">
+
+    </div>
+
+    </p>
+</template><template class="template-cam"></template><template class="template-graph">
+    <div class="card-data card-data_graph">
+        <img class="card-data_graph-img" src="img/Richdata@3x.png">
+    </div>
+</template><template class="template-climat">
+    <div class="card-data card-data_climat">
+        <div class="climat-block">
+            Температура: <em class="climat-block_data climat-block_data__temp">24 C</em>
         </div>
-    </template></head>
-    
-    <body><div class="video-controls">
-        <div class="video-controls-wrap">
-            <p class="controls-text">Яркость</p>
-            <input type="range" class="volume-range video-control video-control_brightness" name="video-brightness-range" min="0" max="200" value="100" step="1">
-            <p class="controls-text">Контрастность</p>
-            <input type="range" class="volume-range video-control video-control_contrast" name="video-contrast-range" min="0" max="200" value="100" step="1">
+        <div class="climat-block hum-block">
+            Влажность: <em class="climat-block_data climat-block_data__hum">80%</em>
         </div>
     </div>
-    <header>
-        <img class="header-logo" src="img/yd2.png">
-        <menu class="header-menu">
-            <a class="header-menu__link" href="cam.html">Видеонаблюдение</a>
-            <a class="header-menu__link header-menu__link_active " href="index.html">События</a>
-            <a class="header-menu__link">Сводка</a>
-            <a class="header-menu__link">Устройства</a>
-            <a class="header-menu__link">Сценарии</a>
-        </menu>
-    
-        <svg class="header-menu__switcher" width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <title>icon_list_m</title>
-            <desc>Created with Sketch.</desc>
-            <defs>
-                <path d="M0,3.32630157 C0,2.77790036 0.444630861,2.33333333 1.00087166,2.33333333 L14.9991283,2.33333333 C15.5518945,2.33333333 16,2.7736791 16,3.32630157 L16,4.00703176 C16,4.55543298 15.5553691,5 14.9991283,5 L1.00087166,5 C0.448105505,5 0,4.55965424 0,4.00703176 L0,3.32630157 Z M0,8.65963491 C0,8.11123369 0.444630861,7.66666667 1.00087166,7.66666667 L14.9991283,7.66666667 C15.5518945,7.66666667 16,8.10701243 16,8.65963491 L16,9.34036509 C16,9.88876631 15.5553691,10.3333333 14.9991283,10.3333333 L1.00087166,10.3333333 C0.448105505,10.3333333 0,9.89298757 0,9.34036509 L0,8.65963491 Z M0,13.9929682 C0,13.444567 0.444630861,13 1.00087166,13 L14.9991283,13 C15.5518945,13 16,13.4403458 16,13.9929682 L16,14.6736984 C16,15.2220996 15.5553691,15.6666667 14.9991283,15.6666667 L1.00087166,15.6666667 C0.448105505,15.6666667 0,15.2263209 0,14.6736984 L0,13.9929682 Z" id="path-1"></path>
-            </defs>
-            <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="v1-1-1-mobile-home" transform="translate(-339.000000, -70.000000)">
-                    <g id="Direct-/-Icons-/-List-/-M" transform="translate(339.000000, 68.000000)">
-                        <mask id="mask-2" fill="white">
-                            <use xlink:href="#path-1"></use>
-                        </mask>
-                        <use id="icon_list_m" fill="#333333" xlink:href="#path-1"></use>
-                    </g>
+</template><template class="template-music">
+    <div class="card-data card-data_music">
+
+        <div class="song-area">
+            <div class="cover-wrap">
+                <img class="cover" src="https://avatars.yandex.net/get-music-content/193823/1820a43e.a.5517056-1/m1000x1000">
+            </div>
+
+            <div class="song-data">
+                <h4 class="song-title">Florence &amp; The Machine - Big God</h4>
+                <div class="song-timeline-wrap">
+                    <input type="range" class="song-range" name="song-range" min="0" max="100" value="" step="1">
+                    <div class="song-length">4:31</div>
+                </div>
+            </div>
+        </div>
+        <div class="player-controls">
+            <button class="player-control player-control_prev">
+                <img src="img/Prev.svg">
+            </button>
+            <button class="player-control player-control_next">
+                <img src="img/Prev.svg">
+            </button>
+
+            <input type="range" class="volume-range" name="volume-range" min="0" max="100" value="50" step="1">
+            <div class="song-volume">80%</div>
+        </div>
+
+
+
+    </div>
+</template><template class="template-buttons">
+
+    <div class="buttons-wrap"></div>
+
+</template></head>
+
+<body><div class="video-controls">
+    <div class="video-controls-wrap">
+        <p class="controls-text">Яркость</p>
+        <input type="range" class="volume-range video-control video-control_brightness" name="video-brightness-range" min="0" max="200" value="100" step="1">
+        <p class="controls-text">Контрастность</p>
+        <input type="range" class="volume-range video-control video-control_contrast" name="video-contrast-range" min="0" max="200" value="100" step="1">
+    </div>
+</div>
+<header>
+    <img class="header-logo" src="img/yd2.png">
+    <menu class="header-menu">
+        <a class="header-menu__link" href="cam.html">Видеонаблюдение</a>
+        <a class="header-menu__link header-menu__link_active " href="index.html">События</a>
+        <a class="header-menu__link">Сводка</a>
+        <a class="header-menu__link">Устройства</a>
+        <a class="header-menu__link">Сценарии</a>
+    </menu>
+
+    <svg class="header-menu__switcher" width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>icon_list_m</title>
+        <desc>Created with Sketch.</desc>
+        <defs>
+            <path d="M0,3.32630157 C0,2.77790036 0.444630861,2.33333333 1.00087166,2.33333333 L14.9991283,2.33333333 C15.5518945,2.33333333 16,2.7736791 16,3.32630157 L16,4.00703176 C16,4.55543298 15.5553691,5 14.9991283,5 L1.00087166,5 C0.448105505,5 0,4.55965424 0,4.00703176 L0,3.32630157 Z M0,8.65963491 C0,8.11123369 0.444630861,7.66666667 1.00087166,7.66666667 L14.9991283,7.66666667 C15.5518945,7.66666667 16,8.10701243 16,8.65963491 L16,9.34036509 C16,9.88876631 15.5553691,10.3333333 14.9991283,10.3333333 L1.00087166,10.3333333 C0.448105505,10.3333333 0,9.89298757 0,9.34036509 L0,8.65963491 Z M0,13.9929682 C0,13.444567 0.444630861,13 1.00087166,13 L14.9991283,13 C15.5518945,13 16,13.4403458 16,13.9929682 L16,14.6736984 C16,15.2220996 15.5553691,15.6666667 14.9991283,15.6666667 L1.00087166,15.6666667 C0.448105505,15.6666667 0,15.2263209 0,14.6736984 L0,13.9929682 Z" id="path-1"></path>
+        </defs>
+        <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="v1-1-1-mobile-home" transform="translate(-339.000000, -70.000000)">
+                <g id="Direct-/-Icons-/-List-/-M" transform="translate(339.000000, 68.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="icon_list_m" fill="#333333" xlink:href="#path-1"></use>
                 </g>
             </g>
-        </svg>
-    </header>
-    <div class="wrap">
-    
-        <div class="switch-block switch-block_active" data="feed">
-            <h2 class="content-heading">Лента событий</h2>
-            <div class="content-block content">
-    
-    
-                <div class="card card_size_l">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap foo">
-                            <img class="card-icon" src="img/stats.4.svg">
-                        </div>
-                        <h3 class="card-title bar">Еженедельный отчет по расходам ресурсов</h3>
+        </g>
+    </svg>
+</header>
+<div class="wrap">
+
+    <div class="switch-block switch-block_active" data="feed">
+        <h2 class="content-heading">Лента событий</h2>
+        <div class="content-block content">
+
+
+            <div class="card card_size_l">
+                <div class="card-heading">
+                    <div class="card-icon-wrap foo">
+                        <img class="card-icon" src="img/stats.4.svg">
                     </div>
-                    <div class="card-specs">
-                        <p class="card-source">Сенсоры потребления</p>
-                        <p class="card-time">19:00, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big">Так держать! За последнюю неделю вы потратили на 10% меньше ресурсов, чем неделей ранее.</p><div class="card-data card-data_graph">
-                    <img class="card-data_graph-img" src="img/chart.webp">
-                </div></div>
-    
-    
-                <div class="card card_size_s">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/key.svg">
-                        </div>
-                        <h3 class="card-title">Дверь открыта</h3>
-                    </div>
-                    <div class="card-specs">
-                        <p class="card-source">Сенсор входной двери</p>
-                        <p class="card-time card-time_block">18:50, Сегодня</p>
-                    </div>
+                    <h3 class="card-title bar">Еженедельный отчет по расходам ресурсов</h3>
                 </div>
-    
-    
-                <div class="card card_size_s">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/robot-cleaner.svg">
-                        </div>
-                        <h3 class="card-title">Уборка закончена</h3>
-                    </div>
-                    <div class="card-specs">
-                        <p class="card-source">Пылесос</p>
-                        <p class="card-time card-time_block">18:45, Сегодня</p>
-                    </div>
+                <div class="card-specs">
+                    <p class="card-source">Сенсоры потребления</p>
+                    <p class="card-time">19:00, Сегодня</p>
                 </div>
-    
-    
-                <div class="card card_size_s">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/router.svg">
-                        </div>
-                        <h3 class="card-title">Новый пользователь</h3>
+                <p class="card-description card-description_big">Так держать! За последнюю неделю вы потратили на 10% меньше ресурсов, чем неделей ранее.</p><div class="card-data card-data_graph">
+                <img class="card-data_graph-img" src="img/chart.webp">
+            </div></div>
+
+
+            <div class="card card_size_s">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/key.svg">
                     </div>
-                    <div class="card-specs">
-                        <p class="card-source">Роутер</p>
-                        <p class="card-time card-time_block">18:45, Сегодня</p>
-                    </div>
+                    <h3 class="card-title">Дверь открыта</h3>
                 </div>
-    
-    
-                <div class="card card_size_m">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/thermal.svg">
-                        </div>
-                        <h3 class="card-title">Изменен климатический режим</h3>
-                    </div>
-                    <div class="card-specs">
-                        <p class="card-source">Сенсор микроклимата</p>
-                        <p class="card-time">18:30, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big">Установлен климатический режим «Фиджи»</p><div class="card-data card-data_climat">
-                    <div class="climat-block">
-                        Температура: <em class="climat-block_data climat-block_data__temp">24 C</em>
-                    </div>
-                    <div class="climat-block hum-block">
-                        Влажность: <em class="climat-block_data climat-block_data__hum">80%</em>
-                    </div>
-                </div></div>
-    
-    
-                <div class="card card_size_m critical">
-                    <div class="card-heading heading-critical">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/ac.svg">
-                        </div>
-                        <h3 class="card-title">Невозможно включить кондиционер</h3>
-                    </div>
-                    <div class="card-specs specs-critical">
-                        <p class="card-source">Кондиционер</p>
-                        <p class="card-time">18:21, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big description_critical">В комнате открыто окно, закройте его и повторите попытку</p></div>
-    
-    
-                <div class="card card_size_m">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/music.svg">
-                        </div>
-                        <h3 class="card-title">Музыка включена</h3>
-                    </div>
-                    <div class="card-specs">
-                        <p class="card-source">Яндекс.Станция</p>
-                        <p class="card-time">18:16, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big description_critical">Сейчас проигрывается:</p><div class="card-data card-data_music">
-    
-                    <div class="song-area">
-                        <div class="cover-wrap">
-                            <img class="cover" src="https://avatars.yandex.net/get-music-content/193823/1820a43e.a.5517056-1/m1000x1000">
-                        </div>
-    
-                        <div class="song-data">
-                            <h4 class="song-title">Florence &amp; The Machine - Big God</h4>
-                            <div class="song-timeline-wrap">
-                                <input type="range" class="song-range" name="song-range" min="0" max="100" value="" step="1">
-                                <div class="song-length">4:31</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="player-controls">
-                        <button class="player-control player-control_prev">
-                            <img src="img/Prev.svg">
-                        </button>
-                        <button class="player-control player-control_next">
-                            <img src="img/Prev.svg">
-                        </button>
-    
-                        <input type="range" class="volume-range" name="volume-range" min="0" max="100" value="50" step="1">
-                        <div class="song-volume">80%</div>
-                    </div>
-    
-    
-    
-                </div></div>
-    
-    
-                <div class="card card_size_m">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/fridge.svg">
-                        </div>
-                        <h3 class="card-title">Заканчивается молоко</h3>
-                    </div>
-                    <div class="card-specs">
-                        <p class="card-source">Холодильник</p>
-                        <p class="card-time">17:23, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big description_critical">Кажется, в холодильнике заканчивается молоко. Вы хотите добавить его в список покупок?</p>
-    
-                    <div class="buttons-wrap">
-                        <button class="button  button_yellow">
-                            Дa
-                        </button>
-    
-                        <button class="button">
-                            Heт
-                        </button>
-                    </div>
-    
+                <div class="card-specs">
+                    <p class="card-source">Сенсор входной двери</p>
+                    <p class="card-time card-time_block">18:50, Сегодня</p>
                 </div>
-    
-    
-                <div class="card card_size_s">
-                    <div class="card-heading">
-                        <div class="card-icon-wrap">
-                            <img class="card-icon" src="img/battery.svg">
-                        </div>
-                        <h3 class="card-title">Зарядка завершена</h3>
-                    </div>
-                    <div class="card-specs">
-                        <p class="card-source">Оконный сенсор</p>
-                        <p class="card-time card-time_block">16:22, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big description_critical">Ура! Устройство «Оконный сенсор» снова в строю!</p></div>
-    
-    
-                <div class="card card_size_l critical">
-                    <div class="card-heading heading-critical">
-                        <div class="card-icon-wrap" style="overflow: hidden;">
-                                    <img class="card-icon" src="img/cam.svg">
-                        </div>
-                        <h3 class="card-title">Пылесос застрял</h3>
-                    </div>
-                    <div class="card-specs specs-critical">
-                        <p class="card-source">Сенсор движения</p>
-                        <p class="card-time">16:17, Сегодня</p>
-                    </div>
-                    <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
-                    <div class="critical-cam" onload="initCriticalCam()" touch-action="none" style="background-position: 0px 0px; background-size: 100%; filter: brightness(100%);">
-    
-                    </div>
-    
-                    </p></div>
-    
-    
-                    <div class="card card_size_s" style="border-radius: 22px;">
-                            <div class="card-heading">
-                                    <div class="card-icon-wrap">
-                                        <img class="card-icon" src="img/kettle.svg">
-                                    </div>
-                                    <h3 class="card-title">Вода вскипела</h3>
-                                </div>
-                                <div class="card-specs">
-                                    <p class="card-source">Чайник</p>
-                                    <p class="card-time card-time_block">16:20, Сегодня</p>
-                                </div>
-                    </div>
-    
             </div>
+
+
+            <div class="card card_size_s">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/robot-cleaner.svg">
+                    </div>
+                    <h3 class="card-title">Уборка закончена</h3>
+                </div>
+                <div class="card-specs">
+                    <p class="card-source">Пылесос</p>
+                    <p class="card-time card-time_block">18:45, Сегодня</p>
+                </div>
+            </div>
+
+
+            <div class="card card_size_s">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/router.svg">
+                    </div>
+                    <h3 class="card-title">Новый пользователь</h3>
+                </div>
+                <div class="card-specs">
+                    <p class="card-source">Роутер</p>
+                    <p class="card-time card-time_block">18:45, Сегодня</p>
+                </div>
+            </div>
+
+
+            <div class="card card_size_m">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/thermal.svg">
+                    </div>
+                    <h3 class="card-title">Изменен климатический режим</h3>
+                </div>
+                <div class="card-specs">
+                    <p class="card-source">Сенсор микроклимата</p>
+                    <p class="card-time">18:30, Сегодня</p>
+                </div>
+                <p class="card-description card-description_big">Установлен климатический режим «Фиджи»</p><div class="card-data card-data_climat">
+                <div class="climat-block">
+                    Температура: <em class="climat-block_data climat-block_data__temp">24 C</em>
+                </div>
+                <div class="climat-block hum-block">
+                    Влажность: <em class="climat-block_data climat-block_data__hum">80%</em>
+                </div>
+            </div></div>
+
+
+            <div class="card card_size_m critical">
+                <div class="card-heading heading-critical">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/ac.svg">
+                    </div>
+                    <h3 class="card-title">Невозможно включить кондиционер</h3>
+                </div>
+                <div class="card-specs specs-critical">
+                    <p class="card-source">Кондиционер</p>
+                    <p class="card-time">18:21, Сегодня</p>
+                </div>
+                <p class="card-description card-description_big description_critical">В комнате открыто окно, закройте его и повторите попытку</p></div>
+
+
+            <div class="card card_size_m">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/music.svg">
+                    </div>
+                    <h3 class="card-title">Музыка включена</h3>
+                </div>
+                <div class="card-specs">
+                    <p class="card-source">Яндекс.Станция</p>
+                    <p class="card-time">18:16, Сегодня</p>
+                </div>
+                <p class="card-description card-description_big description_critical">Сейчас проигрывается:</p><div class="card-data card-data_music">
+
+                <div class="song-area">
+                    <div class="cover-wrap">
+                        <img class="cover" src="https://avatars.yandex.net/get-music-content/193823/1820a43e.a.5517056-1/m1000x1000">
+                    </div>
+
+                    <div class="song-data">
+                        <h4 class="song-title">Florence &amp; The Machine - Big God</h4>
+                        <div class="song-timeline-wrap">
+                            <input type="range" class="song-range" name="song-range" min="0" max="100" value="" step="1">
+                            <div class="song-length">4:31</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <button class="player-control player-control_prev">
+                        <img src="img/Prev.svg">
+                    </button>
+                    <button class="player-control player-control_next">
+                        <img src="img/Prev.svg">
+                    </button>
+
+                    <input type="range" class="volume-range" name="volume-range" min="0" max="100" value="50" step="1">
+                    <div class="song-volume">80%</div>
+                </div>
+
+
+
+            </div></div>
+
+
+            <div class="card card_size_m">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/fridge.svg">
+                    </div>
+                    <h3 class="card-title">Заканчивается молоко</h3>
+                </div>
+                <div class="card-specs">
+                    <p class="card-source">Холодильник</p>
+                    <p class="card-time">17:23, Сегодня</p>
+                </div>
+                <p class="card-description card-description_big description_critical">Кажется, в холодильнике заканчивается молоко. Вы хотите добавить его в список покупок?</p>
+
+                <div class="buttons-wrap">
+                    <button class="button  button_yellow">
+                        Дa
+                    </button>
+
+                    <button class="button">
+                        Heт
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="card card_size_s">
+                <div class="card-heading">
+                    <div class="card-icon-wrap">
+                        <img class="card-icon" src="img/battery.svg">
+                    </div>
+                    <h3 class="card-title">Зарядка завершена</h3>
+                </div>
+                <div class="card-specs">
+                    <p class="card-source">Оконный сенсор</p>
+                    <p class="card-time card-time_block">16:22, Сегодня</p>
+                </div>
+                <p class="card-description card-description_big description_critical">Ура! Устройство «Оконный сенсор» снова в строю!</p></div>
+
+
+            <div class="card card_size_l critical">
+                <div class="card-heading heading-critical">
+                    <div class="card-icon-wrap" style="overflow: hidden;">
+                                <img class="card-icon" src="img/cam.svg">
+                    </div>
+                    <h3 class="card-title">Пылесос застрял</h3>
+                </div>
+                <div class="card-specs specs-critical">
+                    <p class="card-source">Сенсор движения</p>
+                    <p class="card-time">16:17, Сегодня</p>
+                </div>
+                <p class="card-description card-description_big description_critical">Робопылесос не смог сменить свое местоположение в течение последних 3 минут. Похоже, ему нужна помощь.
+                <div class="critical-cam" onload="initCriticalCam()" touch-action="none" style="background-position: 0px 0px; background-size: 100%; filter: brightness(100%);">
+
+                </div>
+
+                </p></div>
+
+
+                <div class="card card_size_s" style="border-radius: 22px;">
+                        <div class="card-heading">
+                                <div class="card-icon-wrap">
+                                    <img class="card-icon" src="img/kettle.svg">
+                                </div>
+                                <h3 class="card-title">Вода вскипела</h3>
+                            </div>
+                            <div class="card-specs">
+                                <p class="card-source">Чайник</p>
+                                <p class="card-time card-time_block">16:20, Сегодня</p>
+                            </div>
+                </div>
+
         </div>
-    
-    
-        <div class="content-block multimedia"></div>
     </div>
-    <footer>
-        <menu class="footer-menu">
-            <a class="footer-menu__link">Помощь</a>
-            <a class="footer-menu__link">Обратная связь</a>
-            <a class="footer-menu__link">Разработчикам</a>
-            <a class="footer-menu__link">Условия использования</a>
-            <a class="footer-menu__link" href="./assets/license.pdf" target="blank">Лицензия</a>
-        </menu>
-    </footer>
-    </body></html>
+
+
+    <div class="content-block multimedia"></div>
+</div>
+<footer>
+    <menu class="footer-menu">
+        <a class="footer-menu__link">Помощь</a>
+        <a class="footer-menu__link">Обратная связь</a>
+        <a class="footer-menu__link">Разработчикам</a>
+        <a class="footer-menu__link">Условия использования</a>
+        <a class="footer-menu__link" href="./assets/license.pdf" target="blank">Лицензия</a>
+    </menu>
+</footer>
+</body></html>

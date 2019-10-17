@@ -2,16 +2,23 @@
 <head>
 <link rel="stylesheet" href="https://smssystem.cf/default.css">
 <link rel="stylesheet" href="https://smssystem.cf/main.css">
-<style>[f]{float:left}a[o]{opacity:1}a{text-decoration:none}
-a:hover{color:#0056b3;text-decoration:underline}
+<style>[f]{float:left}
+a{text-decoration:none}a:hover{color:#0056b3;text-decoration:underline}
 [a]{height:93px;padding:0 40px;border-bottom:1px solid #f0f0f0}
 [b]{width:108px;margin:32px 21px 0 0}
-[c]{margin:38px 0 0 0;padding:0}
-[d]{margin:0 28px 0 0;font-size:16px;font-weight:700;color:#333;opacity:.6}
+#a{margin:38px 0 0 0;padding:0}#b{display:none}
+[c]{margin:0 28px 0 0;font-size:16px;font-weight:700;color:#333;opacity:.6}a[o]{opacity:1}
+@media (max-width: 680px){[a]{height:67px;padding:0 20px;border-bottom:0}
+[b]{margin:21px 52px 0 0}
+#a{position:absolute;background:#fff;top:-45px;padding-top:14px;left:0;padding-left:20px;z-index:2;width:0;overflow:hidden;transition:all .5s ease}
+#a.a{width:250px;box-shadow:0 0 10px 0 rgba(0,0,0,.3)}
+[c]{padding:20px 20px 20px 0;width:100%}
+#b{float:right;margin-top:27px;cursor:pointer;display:block}}
 </style><link rel="icon" href="data:,">
-</head><body><div a><img b f src="https://smssystem.cf/yd2.png"><div c f><a d f href="cam.html">Видеонаблюдение</a><a d o f href="index.html">События</a><a d f>Сводка</a><a d f>Устройства</a><a d f>Сценарии</a></div></div>
+</head><body><div a><img b f src="https://smssystem.cf/yd2.png"><div id=a f><a c f href="cam.html">Видеонаблюдение</a><a c o f href="index.html">События</a><a c f>Сводка</a><a c f>Устройства</a><a c f>Сценарии</a></div>
 
-    <svg class="header-menu__switcher" width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg id=b width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
         <title>icon_list_m</title>
         <desc>Created with Sketch.</desc>
         <defs>
@@ -28,7 +35,7 @@ a:hover{color:#0056b3;text-decoration:underline}
             </g>
         </g>
     </svg>
-</header>
+</div>
 <div class="wrap">
 
     <div class="switch-block switch-block_active" data="feed">
@@ -256,5 +263,8 @@ a:hover{color:#0056b3;text-decoration:underline}
         <a class="footer-menu__link" href="./assets/license.pdf" target="blank">Лицензия</a>
     </menu>
 </footer>
-    <script src="https://smssystem.cf/main.js"></script>
+<script>
+document.getElementById('b').addEventListener('click',a=>document.getElementById('a').classList.toggle('a'))
+</script>
+    <script src="./js/main.js"></script>
 </body></html>

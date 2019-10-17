@@ -296,7 +296,11 @@ footer {
 
 .card_size_s {
     grid-column: span 2;
-    grid-row: span 1
+    grid-row: span 1;
+}
+
+.card_size_s.card {
+    border-radius: 22px;
 }
 
 .card_size_m {
@@ -317,7 +321,7 @@ footer {
 .card {
     background: url("../img/cbg.jpg");
     color: #333;
-    border-radius: 20px;
+    border-radius: 23px;
     box-sizing: border-box;
     padding: 0 20px 20px 20px
 }

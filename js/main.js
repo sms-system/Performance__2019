@@ -48,16 +48,6 @@ document.querySelectorAll('.panel_floor').forEach(p => {
     }
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    $('.card').each(function(e) {
-        if ($(this).hasClass('card_size_s')) {
-            $(this).css({'border-radius': '22px'})
-        } else {
-            $(this).css({'border-radius': '23px'})
-        }
-    });
-});
-
 
 const arrowLeftScens = document.querySelector('.scenarios__paginator .paginator__arrow_left');
 const arrowRightScens = document.querySelector('.scenarios__paginator .paginator__arrow_right');

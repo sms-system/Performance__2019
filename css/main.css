@@ -328,16 +328,6 @@ footer {
     color: #fff;
     padding: 0
 }
-.logo {
-    display: inline-block;
-    width: 108px;
-    height: 27px;
-    position: relative;
-    background-image: url("./assets/logo.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: cover;
-}
 .logo__ya {
     display: block;
     position: absolute;
@@ -357,14 +347,6 @@ footer {
     width: 100%;
     left: 0;
     top: 0;
-}
-.main {
-    height: 331px;
-    border-radius: 20px;
-    padding: 0 20px 0 25px;
-    display: flex;
-    justify-content: space-between;
-    background: url("assets/sh.png") center center/cover no-repeat;
 }
 .main__greeting {
     margin-top: 6px;
@@ -451,14 +433,6 @@ footer {
     max-width: 62px;
     height: 40px;
     padding-right: 32px;
-}
-.modal__value_temp {
-    background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
-}
-.modal__value_light {
-    height: 45px;
-    padding-right: 45px;
-    background: url("assets/panel__icon_light_off.svg") right center/contain no-repeat;
 }
 .modal__status {
     margin-bottom: 20px;
@@ -621,30 +595,12 @@ html {
 .weather__item_outside {
     padding-right: 31px;
 }
-.weather__item_cloud-drizzle {
-    background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat;
-}
 .stats {
     opacity: 0;
 }
 .panel__icon {
     width: 24px;
     height: 24px;
-}
-.panel__icon_temp_off {
-    background: url("assets/panel__icon_temp_off.svg") center center/contain no-repeat;
-}
-.panel__icon_temp_on {
-    background: url("assets/panel__icon_temp_on.svg") center center/contain no-repeat;
-}
-.panel__icon_light_off {
-    background: url("assets/panel__icon_light_off.svg") center center/contain no-repeat;
-}
-.panel__icon_light_on {
-    background: url("assets/panel__icon_light_on.svg") center center/contain no-repeat;
-}
-.panel__icon_clock {
-    background: url("assets/panel__icon_clock.svg") center center/contain no-repeat;
 }
 
 .card-heading {
@@ -738,7 +694,7 @@ html {
     width: 100%;
     margin-top: 40px;
     display: block;
-    background: url(../img/cam.webp);
+    background: url(./cam.webp);
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;
@@ -927,21 +883,6 @@ html {
 
 .video-control {
     float: left
-}
-
-.video-volume {
-    background: url(../img/sound_n.png);
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    margin-left: 40px;
-    cursor: pointer
-}
-
-.video-volume_unmuted {
-    background: green;
-    background: url(../img/sound.png);
-    background-size: cover
 }
 
 .analyser {

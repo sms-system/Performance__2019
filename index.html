@@ -165,7 +165,13 @@ a{text-decoration:none}a:hover{color:#0056b3;text-decoration:underline}
                 <p class="card-description card-description_big description_critical">Кажется, в холодильнике заканчивается молоко. Вы хотите добавить его в список покупок?</p>
 
                 <div class="buttons-wrap">
-                        <button class="button button_yellow" type="button">Да</button><button class="button">Нет</button>
+                        <button class="button  button_yellow">
+                                Дa
+                            </button>
+        
+                            <button class="button">
+                                Heт
+                            </button>
                 </div>
 
             </div>
@@ -231,6 +237,7 @@ a{text-decoration:none}a:hover{color:#0056b3;text-decoration:underline}
 </footer>
 <script>
 document.getElementById('b').addEventListener('click',a=>document.getElementById('a').classList.toggle('a'))
+window.addEventListener('DOMContentLoaded', () => {
 const buttonsContainer = document.querySelector('.buttons-wrap');
 
     buttonsContainer.innerHTML = '<button class="button button_yellow" type="button">Да</button>' +
@@ -263,5 +270,6 @@ const buttonsContainer = document.querySelector('.buttons-wrap');
             fridgeInfoContainer.replaceWith(purchaseListContainer)
             buttonsContainer.style.display = "none";
         }
+}, 0)
 </script>
 </body></html>

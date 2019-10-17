@@ -737,7 +737,7 @@ html {
     width: 100%;
     margin-top: 40px;
     display: block;
-    background: url(https://smssystem.cf/cam.webp);
+    background: url(../img/cam.webp);
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;

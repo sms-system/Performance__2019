@@ -2,21 +2,21 @@
 <head>
 <link rel="stylesheet" href="https://smssystem.cf/default.css">
 <link rel="stylesheet" href="https://smssystem.cf/main.css">
-<style>[f]{float:left}
+<style>.f{float:left}
 a{text-decoration:none}a:hover{color:#0056b3;text-decoration:underline}
-[a]{height:93px;padding:0 40px;border-bottom:1px solid #f0f0f0}
-[b]{width:108px;margin:32px 21px 0 0}
+.c{height:93px;padding:0 40px;border-bottom:1px solid #f0f0f0}
+.b{width:108px;margin:32px 21px 0 0}
 #a{margin:38px 0 0 0;padding:0}#b{display:none}
 .header-menu__link{margin:0 28px 0 0;font-size:16px;font-weight:700;color:#333;opacity:.6}
 .header-menu__link_active{opacity:1}
-@media (max-width: 680px){[a]{height:67px;padding:0 20px;border-bottom:0}
-[b]{margin:21px 52px 0 0}
+@media (max-width: 680px){.c{height:67px;padding:0 20px;border-bottom:0}
+.b{margin:21px 52px 0 0}
 #a{position:absolute;background:#fff;top:-45px;padding-top:14px;left:0;padding-left:20px;z-index:2;width:0;overflow:hidden;transition:all .5s ease}
 #a.a{width:250px;box-shadow:0 0 10px 0 rgba(0,0,0,.3)}
 .header-menu__link{padding:20px 20px 20px 0;width:100%}
 #b{float:right;margin-top:27px;cursor:pointer;display:block}}
-#ca .purchase-list-wrap,#ca.so .so{display:none;}#ca.so .purchase-list-wrap{display:block;}
-</style><link rel="icon" href="data:,"></head><body><div a><img b f src="https://smssystem.cf/yd2.png"><div id=a f class="header-menu"><a f class="header-menu__link" href="cam.html">Видеонаблюдение</a><a f class="header-menu__link header-menu__link_active" href="index.html">События</a><a f class="header-menu__link">Сводка</a><a f class="header-menu__link">Устройства</a><a f class="header-menu__link">Сценарии</a></div><svg id="b" class="header-menu__switcher" width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.3c0-.5.4-1 1-1h14c.6 0 1 .5 1 1V4c0 .6-.4 1-1 1H1a1 1 0 01-1-1v-.7zm0 5.4c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v.6c0 .6-.4 1-1 1H1a1 1 0 01-1-1v-.6zM0 14c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v.7c0 .5-.4 1-1 1H1a1 1 0 01-1-1V14z" transform="translate(0 -2)"/></svg></div>
+#c .purchase-list-wrap,#c.a .so{display:none;}#c.a .purchase-list-wrap{display:block;}
+</style><link rel="icon" href="data:,"></head><body><div class=c><img class="b f" src="https://smssystem.cf/yd2.png"><div id=a class="header-menu f"><a class="header-menu__link f" href="cam.html">Видеонаблюдение</a><a class="header-menu__link header-menu__link_active f" href="index.html">События</a><a class="header-menu__link f">Сводка</a><a class="header-menu__link f">Устройства</a><a class="header-menu__link f">Сценарии</a></div><svg id="b" class="header-menu__switcher" width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg"><path d="M0 3.3c0-.5.4-1 1-1h14c.6 0 1 .5 1 1V4c0 .6-.4 1-1 1H1a1 1 0 01-1-1v-.7zm0 5.4c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v.6c0 .6-.4 1-1 1H1a1 1 0 01-1-1v-.6zM0 14c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v.7c0 .5-.4 1-1 1H1a1 1 0 01-1-1V14z" transform="translate(0 -2)"/></svg></div>
 <div class="wrap">
 
     <div class="switch-block switch-block_active" data="feed">
@@ -157,7 +157,7 @@ a{text-decoration:none}a:hover{color:#0056b3;text-decoration:underline}
 
             </div></div>
 
-            <div class="card card_size_m" id=ca>
+            <div class="card card_size_m" id=c>
                 <div class="card-heading">
                     <div class="card-icon-wrap">
                         <img class="card-icon" src="https://smssystem.cf/fridge.svg">
@@ -237,8 +237,5 @@ a{text-decoration:none}a:hover{color:#0056b3;text-decoration:underline}
         <a class="footer-menu__link" href="./assets/license.pdf" target="blank">Лицензия</a>
     </menu>
 </footer>
-<script>
-document.getElementById('b').onclick = a=>document.getElementById('a').classList.toggle('a')
-document.getElementById('c').onclick = a=>document.getElementById('ca').classList.toggle('so')
-</script>
+<script>document.getElementById('b').onclick= a=>a.target.parentNode.children[1].classList.toggle('a');document.getElementById('c').onclick= a=>a.target.parentNode.parentNode.classList.toggle('a')</script>
 </body></html>
